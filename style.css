@@ -1,0 +1,39 @@
+/* Styles personnalisés */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eebfbf;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 300px; /* Taille fixe définie pour toutes les images */
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+
+
+
